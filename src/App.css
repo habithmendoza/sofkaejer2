@@ -1,0 +1,60 @@
+.App-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App input {
+  margin-bottom: .5rem;
+  border-radius: 20px;
+  text-align: center;
+  width: 6rem;
+  height: 2rem;
+  outline: none;
+}
+
+.card {
+  display: flex;
+  height: 2rem;
+  width: 100%;
+  margin-bottom: .5rem;
+  border: 1px solid rgb(153, 153, 153);
+ }
+
+ .card h4 {
+   margin: 0;
+   padding: 0;
+   margin-left: 1.5rem;
+ }
+
+ .titles {
+   display: flex;
+   margin-bottom: .5rem;
+   background-color: rgb(15, 84, 88);
+   color: #fff;
+ }
+
+ .titles h4 {
+  margin: 0;
+  padding: 0;
+  margin-left: 1.5rem;
+ }
+
+ .card :nth-child(4) {
+  margin-left: 4rem;
+ }
+
+ .card :nth-child(5) {
+  margin-left: 3rem;
+ }
